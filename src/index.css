@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Karla;
+}
+#root,
+#tenzies,
+#active,
+.square,
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#root {
+  width: 511px;
+  height: 517px;
+}
+#tenzies {
+  width: 360px;
+  height: 380px;
+  background-color: #0b2434;
+}
+#active {
+  width: 320px;
+  height: 320px;
+  background-color: white;
+  padding: 34px;
+  justify-content: space-between;
+}
+.squares {
+  display: grid;
+  grid-template: 35px 35px / repeat(5, 35px);
+  grid-gap: 17px;
+}
+.square {
+
+  border-radius: 5px;
+  color: #2b283a;
+  font-weight: 700;
+cursor: pointer;
+  box-shadow: 0px 5px 25px rgba(1 1 1 /15%);
+}
+.green{
+  background-color: #59e391;
+}
+p {
+  color: #4a4e74;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13.107px;
+  font-weight: 400;
+}
+.btn{
+width: 92px;
+height: 35px;
+background-color: #5035FF;
+color: white;
+font-weight: 700 ;
+font-size: 16.5px;
+border-radius: 5px;
+border: none;
+}
+h3{
+  color: #2B283A;
+text-align: center;
+font-family: Karla;
+font-size: 25.6px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.768px;
+}
